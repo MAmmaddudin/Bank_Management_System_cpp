@@ -1,51 +1,47 @@
-<h1 align="center">🏦 Banking System in C++</h1> <h3 align="center">💻 A Console-Based Banking Project | Users & Managers | File-Based Storage</h3>
-🚀 Project Overview
+# 🏦 Banking System in C++
 
-This project is a console-based banking system built in C++, designed to simulate essential banking operations.
-It supports both Users (customers) and Managers (administrators), allowing account creation, login, transactions, and balance management.
+### 💻 A Console-Based Banking Project | Users & Managers | File-Based Storage
 
-Data is stored in text files (users.txt, managers.txt) to ensure persistence across program runs.
+---
 
-🎯 Features
-👤 User Operations
+## 🚀 Project Overview
+This project is a **console-based banking system** built in **C++**, designed to simulate essential banking operations.  
+It supports both **Users** (customers) and **Managers** (administrators), allowing account creation, login, transactions, and balance management.  
 
-Create a new account
+Data is stored in text files (`users.txt`, `managers.txt`) to ensure **persistence across program runs**.  
 
-Login with credentials
+---
 
-Deposit & Withdraw money
+## 🎯 Features
 
-View account summary (balance + transactions)
+### 👤 User Operations
+- Create a new account  
+- Login with credentials  
+- Deposit & Withdraw money  
+- View account summary (balance + transactions)  
+- Close an account permanently  
+- Logout  
 
-Close an account permanently
+### 👨‍💼 Manager Operations
+- Login as manager (with admin credentials)  
+- View all users with their account details  
+- Edit or update any user’s account balance  
+- Logout  
 
-Logout
+---
 
-👨‍💼 Manager Operations
+## 📂 Project Files
+- **`bank.cpp`** → Main program source code  
+- **`users.txt`** → Stores user data (username, password, balance)  
+- **`managers.txt`** → Stores manager credentials (username, password)  
 
-Login as manager (with admin credentials)
+---
 
-View all users with their account details
+## ⚙️ Setup & Run
 
-Edit or update any user’s account balance
-
-Logout
-
-📂 Project Files
-
-bank.cpp → Main program source code
-
-users.txt → Stores user data (username, password, balance)
-
-managers.txt → Stores manager credentials (username, password)
-
-⚙️ Setup & Run
-1️⃣ Compile the Program
-
-Open a terminal in the project directory and run:
-
+### 1️⃣ Compile the Program
+```bash
 g++ bank.cpp -o bank
-
 2️⃣ Run the Program
 ./bank   # Linux / Mac
 bank.exe # Windows
@@ -70,31 +66,51 @@ Logout
 🔹 Manager Menu
 
 Login as Manager → Enter admin credentials
-
 Choose operations:
-
 View all users & balances
-
 Edit any user’s balance
-
 Logout
+
+🖥️ Sample Console Output
+
+🔹 Main Menu
+===== Welcome to Banking System =====
+1. User Login
+2. User Signup
+3. Manager Login
+4. Exit
+Enter your choice: 
+
+🔹 User Dashboard
+===== User Dashboard =====
+1. Deposit Money
+2. Withdraw Money
+3. View Account Summary
+4. Close Account
+5. Logout
+Enter your choice:
+
+🔹 Manager Dashboard
+===== Manager Dashboard =====
+1. View All Users
+2. Edit User Balance
+3. Logout
+Enter your choice:
 
 🧠 Purpose of the Project
 
-Practice File Handling in C++ (persistent storage).
-
-Apply OOP Concepts (classes: Database, BankAccount, Transaction, BankManager).
-
-Build a real-world simulation of banking operations.
-
-Strengthen problem-solving & logical thinking with C++.
+Practice File Handling in C++ (persistent storage)
+Apply OOP Concepts (classes: Database, BankAccount, Transaction, BankManager)
+Build a real-world simulation of banking operations
+Strengthen problem-solving & logical thinking with C++
 
 🛠️ Tech Stack
 Languages & Concepts	Tools & Methods
 C++ (OOP, STL)	File Handling (I/O)
 Classes & Objects	CRUD Operations
-Data Persistence	Console-Based Interface
-📫 Contact
+Data Persistence	Console Interface
 
+📫 Contact
 📧 Email: ammadudin23@gmail.com
-💼 LinkedIn: Muhammad Ammad-ud-Din Khan
+
+💼 LinkedIn: www.linkedin.com/in/muhammad-ammad-ud-din-khan-331012307
